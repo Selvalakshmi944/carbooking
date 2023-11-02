@@ -26,6 +26,15 @@ public class CarBookingTest extends BaseTest {
 		selectDropdown(bookingPojo.getExteriorColor(), 1);
 		printAllDealers();
 	}
+	
+	@Test
+	public void captureAllDealerDetails1() {
+		selectDropdown(bookingPojo.getInputModel(), 1);
+		selectDropdown(bookingPojo.getInputFuel(), 1);
+		selectDropdown(bookingPojo.getInputVarient(), 1);
+		selectDropdown(bookingPojo.getExteriorColor(), 1);
+		printAllDealers();
+	}
 
 	public void printAllDealers() {
 		Select stateSelect = new Select(bookingPojo.getDealerState());

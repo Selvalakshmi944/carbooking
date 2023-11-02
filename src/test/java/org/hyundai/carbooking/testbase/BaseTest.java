@@ -30,6 +30,8 @@ public class BaseTest {
 		Select s = new Select(webElement);
 		s.selectByIndex(selectIndex);
 	}
+	
+	
 
 	public void selectDropdown(WebElement webElement, String selectOption) {
 		Select s = new Select(webElement);

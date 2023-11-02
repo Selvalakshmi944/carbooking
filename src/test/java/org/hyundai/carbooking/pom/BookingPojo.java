@@ -35,6 +35,8 @@ public class BookingPojo {
 	public BookingPojo(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
+	
+	
 
 	public WebElement getInputModel() {
 		return inputModel;
